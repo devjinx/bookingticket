@@ -3,6 +3,8 @@ restart = ('Y')
 
 while restart != ('N','NO','n','no'):
 	print("Booking a Movie Ticket")
+	print("Option 1 : Booking Ticket and print out")
+	print("Option 2 : Exit")
 	option = int(input("\nEnter your option : "))
 
 	if option == 1:
@@ -31,6 +33,8 @@ while restart != ('N','NO','n','no'):
 				print("Movie name is : ", movie_l[x])
 				print("Time is : ", time_l[x])
 				x += 1
+	elif option == 2:
+		exit()
 
 
 
